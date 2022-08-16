@@ -1,0 +1,127 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 0.6rem;
+}
+
+body {
+  color: #1E1F4B;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  padding: 13px 40px;
+  background-color: #706FE5;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #5a57eb;
+}
+
+.btn-secondary {
+  padding: 10px 40px;
+  background-color: #ffffff;
+  color: #2E3E5C;
+  font-weight: reguler;
+  border: 0;
+  outline: 0;
+}
+
+.text-primary {
+  color: #706FE5;
+}
+
+.text-secondary {
+  color: #1E1F4B;
+}
+
+.subtitle {
+  color: #2E3E5C;
+}
+
+#navigation {
+  background-color: #ffffff;
+  width: 100%;
+  position: relative;
+}
+#navigation .brand-logo img {
+  display: block;
+}
+#navigation .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+#navigation .navbar .nav-links {
+  width: 60%;
+  margin: auto;
+}
+#navigation .navbar .nav-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+#navigation .navbar ul li a {
+  text-decoration: none;
+  display: block;
+  color: #2E3E5C;
+}
+#navigation .navbar ul li a:hover {
+  color: #706FE5;
+}
+
+#hero .hero-content {
+  display: flex;
+  border: 1px dashed black;
+  gap: 12px;
+}
+#hero .hero-content .hero-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+#hero .hero-content .subtitle {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+#hero .hero-content .btn-contact {
+  font-size: 18px;
+  font-weight: 600;
+}
+#hero .hero-content .btn-play {
+  font-size: 17px;
+}
+
+.hero-content {
+  position: relative;
+}
+.hero-content .hero-description {
+  flex: 0 0 auto;
+  width: 60%;
+}
+.hero-content .hero-ilustration {
+  flex: 0 0 auto;
+  width: 45%;
+}
+.hero-content .hero-ilustration img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+@use 'variables' as *;
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 .6rem;
+}
+
+body {
+  color: $secon-color;
+  background-color: #ffffff;
+  font-family: $font-base;
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  padding: 13px 40px;
+  background-color: $prim-color;
+  color: $white;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  &:hover {
+   background-color: #5a57eb;
+  }
+}
+
+.btn-secondary {
+  padding: 10px 40px;
+  background-color: $white;
+  color: $text-color;
+  font-weight: reguler;
+  border: 0;
+  outline: 0;
+}
+
+.text-primary {
+  color: $prim-color;
+}
+
+.text-secondary {
+  color: $secon-color;
+}
+
+.subtitle {
+  color: $text-color
+}

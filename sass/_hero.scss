@@ -1,0 +1,47 @@
+@use 'variables' as *;
+
+#hero .hero-content {
+
+  display: flex;
+  border: 1px dashed black;
+  gap: 12px;
+  // flex-wrap: wrap;
+  // overflow-x: hidden;
+
+  .hero-title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6;
+  }
+
+  .btn-contact {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .btn-play {
+    font-size: 17px;
+  }
+}
+
+.hero-content {
+  position: relative;
+  .hero-description {
+    flex: 0 0 auto;
+    width: 60%;
+  }
+  
+  .hero-ilustration {
+    flex: 0 0 auto;
+    width: 45%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
