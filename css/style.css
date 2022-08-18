@@ -34,10 +34,10 @@ body {
 }
 
 .btn-secondary {
-  padding: 10px 40px;
+  padding: 10px 25px;
   background-color: #ffffff;
   color: #2E3E5C;
-  font-weight: reguler;
+  font-weight: normal;
   border: 0;
   outline: 0;
 }
@@ -89,7 +89,6 @@ body {
 
 #hero .hero-content {
   display: flex;
-  border: 1px dashed black;
   gap: 12px;
 }
 #hero .hero-content .hero-title {
@@ -100,6 +99,12 @@ body {
   font-size: 20px;
   font-weight: normal;
   line-height: 1.6;
+  max-width: 555px;
+}
+#hero .hero-content .actions {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
 }
 #hero .hero-content .btn-contact {
   font-size: 18px;
@@ -107,6 +112,21 @@ body {
 }
 #hero .hero-content .btn-play {
   font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 !important;
+  width: 220px;
+  margin-left: 1.3em;
+  font-size: 16px;
+}
+#hero .hero-content .btn-play img {
+  display: block;
+  max-width: 100%;
+  cursor: pointer;
+}
+#hero .hero-content .btn-play img:hover {
+  filter: brightness(0);
 }
 
 .hero-content {
@@ -122,6 +142,20 @@ body {
 }
 .hero-content .hero-ilustration img {
   max-width: 100%;
+}
+
+.hero-title {
+  position: relative;
+  padding-bottom: 1rem;
+  line-height: 1.7;
+}
+.hero-title span {
+  position: absolute;
+  top: 91px;
+}
+
+.rect-vertical {
+  transform: rotate(90deg);
 }
 
 /*# sourceMappingURL=style.css.map */

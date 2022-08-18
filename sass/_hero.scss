@@ -3,10 +3,7 @@
 #hero .hero-content {
 
   display: flex;
-  border: 1px dashed black;
   gap: 12px;
-  // flex-wrap: wrap;
-  // overflow-x: hidden;
 
   .hero-title {
     font-size: 60px;
@@ -17,6 +14,13 @@
     font-size: 20px;
     font-weight: normal;
     line-height: 1.6;
+    max-width: 555px;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
   }
 
   .btn-contact {
@@ -26,6 +30,23 @@
 
   .btn-play {
     font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 !important;
+    width: 220px;
+    margin-left: 1.3em;
+    font-size: 16px;
+
+    img {
+      display: block;
+      max-width: 100%;
+      cursor: pointer;
+
+      &:hover {
+        filter: brightness(0);
+      }
+    }
   }
 }
 

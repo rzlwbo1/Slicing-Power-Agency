@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+
+.hero-title {
+  position: relative;
+  padding-bottom: 1rem;
+  line-height: 1.7;
+
+  span {
+    position: absolute;
+    top: 91px;
+  }
+}
+
+.rect-vertical {
+  transform: rotate(90deg);
+}
