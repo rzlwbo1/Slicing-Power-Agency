@@ -87,6 +87,10 @@ body {
   color: #706FE5;
 }
 
+#hero {
+  margin-top: 2rem;
+}
+
 #hero .hero-content {
   display: flex;
   gap: 12px;
@@ -156,6 +160,24 @@ body {
 
 .rect-vertical {
   transform: rotate(90deg);
+}
+
+#companies {
+  margin-top: 74px;
+  margin-bottom: 3rem;
+}
+
+.companies-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.companies-content .companies-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
