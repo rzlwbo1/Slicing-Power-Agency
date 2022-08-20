@@ -1,6 +1,10 @@
 @use 'variables' as *;
 
 
+#portofolio {
+  margin-bottom: 130px;
+}
+
 .portofolio-content {
   margin-top: 200px;
   h2 {
@@ -35,6 +39,7 @@
   p {
     margin-bottom: 10px;
     font-size: 15px;
+    opacity: .8;
   }
 
   .item-smalls {

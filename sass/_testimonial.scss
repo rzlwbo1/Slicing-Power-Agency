@@ -1,0 +1,41 @@
+@use 'variables' as *;
+
+.testimonial-content {
+  position: relative;
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .quote  {
+    width: 55%;
+    margin: 60px auto 75px auto;
+
+    p {
+      line-height: 2.6;
+      font-weight: 400;
+      text-align: center;
+      opacity: 0.5;
+    }
+
+    &::before {
+      content: url('../assets/images/quote.png');
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif !important;
+      position: absolute;
+      left: 15%;
+      top: 40%
+    }
+
+    &::after {
+      content: url('../assets/images/quote.png');
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif !important;
+      position: absolute;
+      transform: rotate(180deg);
+      right: 15%;
+      top: 40%
+    }
+  }
+}
+

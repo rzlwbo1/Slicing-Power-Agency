@@ -102,8 +102,9 @@ body {
 #hero .hero-content .subtitle {
   font-size: 20px;
   font-weight: normal;
-  line-height: 1.6;
+  line-height: 1.8;
   max-width: 555px;
+  opacity: 0.8;
 }
 #hero .hero-content .actions {
   display: flex;
@@ -180,6 +181,10 @@ body {
   margin: 0 auto;
 }
 
+#portofolio {
+  margin-bottom: 130px;
+}
+
 .portofolio-content {
   margin-top: 200px;
 }
@@ -211,6 +216,7 @@ body {
 .porto-items p {
   margin-bottom: 10px;
   font-size: 15px;
+  opacity: 0.8;
 }
 .porto-items .item-smalls {
   grid-column: 6/11;
@@ -237,6 +243,41 @@ body {
 .porto-items .item-smalls .item-small-4 {
   grid-column: 3/5;
   grid-row: 2/3;
+}
+
+.testimonial-content {
+  position: relative;
+}
+.testimonial-content h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.testimonial-content .quote {
+  width: 55%;
+  margin: 60px auto 75px auto;
+}
+.testimonial-content .quote p {
+  line-height: 2.6;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.5;
+}
+.testimonial-content .quote::before {
+  content: url("../assets/images/quote.png");
+  display: inline-block;
+  font-family: "Montserrat", sans-serif !important;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+.testimonial-content .quote::after {
+  content: url("../assets/images/quote.png");
+  display: inline-block;
+  font-family: "Montserrat", sans-serif !important;
+  position: absolute;
+  transform: rotate(180deg);
+  right: 15%;
+  top: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */
