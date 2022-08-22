@@ -1,0 +1,99 @@
+@use 'variables' as *;
+
+#subscribe {
+  padding-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.subscribe-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .subscribe-field {
+    width: 50%;
+    flex-basis: 50%;
+    text-align: left;
+    padding: 0 20px 0 0;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .subscribe-field > p {
+    font-size: 19px;
+    line-height: 2;
+  }
+
+  .subs-input {
+    margin-top: 45px;
+  }
+
+  .subs-input form {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(113, 111, 229, 0.1);
+    padding: 15px 22px;
+    justify-content: space-around;
+    align-items: center;
+    width: 460px;
+    border-radius: 12px;
+
+    .icon-email {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url('../assets/icons/email.png');
+    }
+
+    ::placeholder {
+      color: rgba(46, 62, 92, .7);
+    }
+
+    input[type="text"] {
+      display: block;
+      padding: 0 0 0 12px;
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: 17px;
+    }
+
+    button {
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 18px;
+      padding: 13px 30px !important;
+    }
+  }
+
+
+  .subscribe-products {
+    width: 50%;
+    flex-basis: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 20px;
+    padding-left: 50px;
+    text-align: left;
+
+    .icon {
+      margin-bottom: 10px;
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .product-item > h3 {
+      margin-bottom: 10px;
+    }
+  }
+
+}
